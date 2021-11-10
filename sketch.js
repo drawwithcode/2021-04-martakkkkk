@@ -46,7 +46,7 @@ function draw() {
 
 function changeColor() {
   //bgcolor = color(random(255));
-  bgcolor = color(random(0, 255));
+  bgcolor = color(random(myColors));
 }
 
 function windowResized() {
